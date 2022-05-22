@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+body, html {
+	margin: 0;
+	padding: 0;
+    font-family: 'Nunito';
+    overflow-x: hidden;
+    background: radial-gradient(crimson, skyblue);
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    position: relative;
+    z-index: 999;
+    color: black;
+}
+
+.h__slogan--btn {
+    border: 2px solid radial-gradient(crimson, skyblue);;
+    transition: all 0.3s ease-in-out;
+}
+
+.h__slogan--btn:hover {
+    color: radial-gradient(crimson, skyblue);;
+    background: radial-gradient(crimson, skyblue);;
+}
